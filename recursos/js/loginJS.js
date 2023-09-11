@@ -66,24 +66,20 @@ function register() {
 }
 
 
-
-/**************************************************************************************************************************** */  
+/**************************************************************************************************************************** */
 
 const form = document.getElementById("form");
 const username = document.getElementById("username");
 const password = document.getElementById("password");
 
-form.addEventListener("submit",function(event){
+form.addEventListener("submit", function (event) {
   event.preventDefault();
-  let users = Array(
-    {
-      usuario: username.value,
-      contraseña: password.value
-    }
-  );
+  let users = Array({
+    usuario: username.value,
+    contraseña: password.value
+  });
   // console.log(users);
-  localStorage.setItem("user",JSON.stringify(users));
+  localStorage.setItem("user", JSON.stringify(users));
   alert("Bienvenido a AGRISOFT")
-  location.href="recuperarContraseña.html";
+  location.href = "recuperarContraseña.html";
 });
-
