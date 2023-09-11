@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <title>Recuperar Contraseña</title>
+    <link rel="stylesheet" href="./recursos/CSS/recuperaContraseña-dist.css" />
+    <script src="recursos/js/recuperarContrasenia.js"></script>
+</head>
+
+<body>
+    <section>
+        <div class="caja">
+            <div class="container">
+                <div class="formulario">
+                    <h2>Recuperar contraseña</h2>
+                    <form id="form">
+                        <div class="input__caja">
+                            <input type="email" placeholder="Correo electronico"
+                                pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$"
+                                title="Introduce un correo valido Ejemplo: Usuario@gmail.com" id="username" required />
+                        </div>
+                        <div class="input__caja">
+                            <input type="submit" value="Enviar" />
+                        </div>
+                        <p class="olvido__contrasenia">
+                            Ya tienes una cuenta?
+                            <a href="index.html">Iniciar sesión</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
