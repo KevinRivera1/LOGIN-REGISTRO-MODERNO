@@ -15,6 +15,7 @@ Este archivo HTML representa una página de inicio de sesión diseñada específ
 - [Contenido](#contenido)
   - [Características Destacadas](#características-destacadas)
   - [Contenido Principal](#contenido-principal)
+  - [Vista Previa](#vista-previa)
   - [Instrucciones de Uso](#instrucciones-de-uso)
   - [Contribución](#contribución)
 
@@ -35,6 +36,9 @@ Este archivo HTML representa una página de inicio de sesión diseñada específ
 
 - **Estilos**: Se hace referencia a una hoja de estilo externa ("login.css") para aplicar estilos a la página.
 
+## Vista Previa
+
+Puedes ver una vista previa : [Página de Login y Registro Moderno - HTML](https://kevinrivera1.github.io/LOGIN-REGISTRO-MODERNO/)
 
 ## Instrucciones de Uso
 
